@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Dec 13 21:34:54 SGT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0176-5c4f-ac65-000006e44ce0 
+on database directory C:\Users\Zhen\OneDrive - Sunway Education Group\NET3204\Final\FourSeasons\FourSeasons with class loader sun.misc.Launcher$AppClassLoader@4e25154f 
+Loaded from file:/C:/Users/Zhen/OneDrive%20-%20Sunway%20Education%20Group/NET3204/Final/FourSeasons/target/bg-jobs/sbt_39aacc99/target/7f4586d1/2903ffb3/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_271-b09
+user.dir=C:\Users\Zhen\OneDrive - Sunway Education Group\NET3204\Final\FourSeasons
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

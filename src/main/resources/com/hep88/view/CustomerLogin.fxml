@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hep88.view.CustomerLoginController">
+   <children>
+      <ImageView fitHeight="263.0" fitWidth="578.0" layoutX="237.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="236.21847534179688" AnchorPane.rightAnchor="236.78152465820312">
+         <image>
+            <Image url="@../images/four_seasons.png" />
+         </image></ImageView>
+      <Label layoutX="232.0" layoutY="400.0" text="Phone Number : " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="274.0" layoutY="454.0" text="Password : " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phoneNumField" layoutX="371.0" layoutY="394.0" onAction="#login" prefHeight="35.0" prefWidth="355.0" promptText="Phone Number">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="371.0" layoutY="448.0" onAction="#login" prefHeight="35.0" prefWidth="355.0" promptText="Password">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="registerButton" layoutX="487.0" layoutY="15.0" mnemonicParsing="false" onAction="#register" prefHeight="40.0" prefWidth="100.0" text="Register" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="408.0" layoutY="287.0" text="Login" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="626.0" layoutY="499.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="100.0" text="Login">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
