@@ -1,8 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Zhen\OneDrive - Sunway Education Group\NET3204\FourSeasons\src\main\scala\com\hep88\ClientActor.scala:161:7: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.[0m
-[0m[[0m[33mwarn[0m] [0m[0m      try {[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Zhen\OneDrive - Sunway Education Group\NET3204\FourSeasons\src\main\scala\com\hep88\ClientActor.scala:78:7: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: ListingResponse(_)[0m
-[0m[[0m[33mwarn[0m] [0m[0m      msg match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

@@ -37,8 +37,8 @@ object Client extends JFXApp {
   val discovery: ServiceDiscovery = Discovery(mainSystem).discovery
   val ref: ActorRef[ClientActor.Command] = mainSystem.spawn(ClientActor(), "ClientActor")
 
-//  joinLocalSeedNode()
-  joinPublicSeedNode()
+  joinLocalSeedNode()
+//  joinPublicSeedNode()
 
   // Initialise.
   private val loader = new FXMLLoader(getClass.getResource("view/RootLayout.fxml"), ndResolver)

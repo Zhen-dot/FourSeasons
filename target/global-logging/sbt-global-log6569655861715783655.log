@@ -1,4 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(cb75c379-b2e9-4c17-b082-53b35dc5aeaa), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Zhen\OneDrive - Sunway Education Group\NET3204\FourSeasons\target\scala-2.12\classes ...[0m
